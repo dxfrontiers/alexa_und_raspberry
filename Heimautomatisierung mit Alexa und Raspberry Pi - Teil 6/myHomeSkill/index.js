@@ -55,7 +55,6 @@ function handleControl(request, context) {
         'nameSpace': nameSpace, 
         'requestMethod': requestMethod, 
         'payload': payload,
-        'request': JSON.stringify(request),
     };
 
     var iotParams = {
